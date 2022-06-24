@@ -1,6 +1,6 @@
 header {
-  height: 100vh;
-  padding-top: 7rem;
+  height: 90vh;
+  padding-top: 3rem;
   overflow: hidden;
 }
 
@@ -10,12 +10,17 @@ header {
   position: relative;
 }
 
+.header__container h5 {
+  font-size: large;
+}
+
 .cta {
   margin-top: 2.5rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
 }
+
 
 .header__socials {
   display: flex;
@@ -25,6 +30,10 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+}
+
+.icon__google {
+  vertical-align: middle;
 }
 
 .header__socials::after {
@@ -53,7 +62,13 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
+}
+
+.scroll__down .down__arrow {
+  margin-left: 1rem;
+  vertical-align: middle;
+  color: var(--color-primary);
 }
 
 @media screen and (max-width: 1024px) {
