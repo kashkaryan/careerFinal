@@ -18,28 +18,20 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h2>Contact Me About Service and Pricing</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>kachikashkaryan@gmail.com</h5>
-            <a href="mailto:kachikashkaryan@gmail.com" target='_blank'>Send a Message</a>
-          </article>
-          <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>tutorials</h5>
-            <a href="https://m.me/" target='_blank'>Send a Message</a>
+            <h5>atlascareerservice@gmail.com</h5>
+            <a href="mailto:atlascareerservice@gmail.com" target='_blank'>Send a Message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
-            <h4>Text</h4>
-            <h5>kachikashkaryan@gmail.com</h5>
-            <a href="mailto:kachikashkaryan@gmail.com" target='_blank'>Send a Message</a>
+            <h4>Call</h4>
+            <a href="tel:626-497-5599">626-497-5599</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

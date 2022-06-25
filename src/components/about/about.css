@@ -4,6 +4,22 @@
   gap: 15%;
 }
 
+#about h5 {
+  font-size: large;
+}
+
+#about h3 {
+  margin-bottom: 3rem;
+  margin-top: -2rem;
+  font-size: large;
+  text-align: center;
+  color: var(--color-light);
+}
+
+#about h2 {
+  font-size: xx-large;
+}
+
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;
@@ -56,7 +72,7 @@
 }
 
 .about__card small {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: var(--color-light);
 }
 

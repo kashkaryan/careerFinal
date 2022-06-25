@@ -12,6 +12,16 @@
   transition: var(--transition);
 }
 
+#services h5 {
+  font-size: large;
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+}
+
+#services h2 {
+  font-size: xx-large;
+}
+
 .service:hover {
   background: transparent;
   border-color: var(--color-primary-variant);

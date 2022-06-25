@@ -5,6 +5,19 @@
   gap: 12%;
 }
 
+#contact .small__name {
+  font-size: large;
+}
+
+#contact h2 {
+  font-size: xx-large;
+}
+
+#contact h3 {
+  font-size: xx-large;
+  text-align-last: center;
+}
+
 .contact__options {
   display: flex;
   flex-direction: column;

@@ -4,6 +4,14 @@
   gap: 2rem;
 }
 
+#experience h5 {
+  font-size: large;
+}
+
+#experience h2 {
+  font-size: xx-large;
+}
+
 .experience__container > div {
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
