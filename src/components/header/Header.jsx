@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/logo1.png'
+import ME from '../../assets/hello.jpeg'
 import HeaderSocials from './HeaderSocials'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import {FcGoogle} from 'react-icons/fc'
